@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  border: 1px solid blue;
+  padding: 20px;
+  width: 20%;
+  margin: 50px auto;
+}
+.counter-div{
+  /* border: 1px solid red; */
+  display: flex;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.counter-name{
+  border: 1px solid white;
+}
+.counter-box{
+  /* border: 1px solid red; */
+  display: flex;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.counter-box>button{
+  /* border: 1px solid red; */
+  background-color: Navy;
+  color: white;
+  border: none;
+  font-size: 20px;
+  width: 30px;
+  border-radius: 4px;
+}
+.count{
+  /* border: 1px solid red; */
+  padding: 0 12px 0 12px;
+  background-color: lightgrey;
+}
+
+
+.buttons{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+.buttons>button{
+  background-color: Navy;
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 4px;
+  width: 70%;
+  margin: 5px auto 5px auto;
+  padding: 5px 0 5px 0;
+}
